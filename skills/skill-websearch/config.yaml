@@ -1,0 +1,15 @@
+skill:
+  name: web_search
+  display_name: 网络搜索
+  description: 执行网络搜索，获取实时信息
+  version: "1.0.0"
+  author: "Skill Developer"
+  category: "information"
+
+settings:
+  api_key: ""
+  default_results: 5
+  timeout: 30
+
+dependencies:
+  - requests>=2.31.0
